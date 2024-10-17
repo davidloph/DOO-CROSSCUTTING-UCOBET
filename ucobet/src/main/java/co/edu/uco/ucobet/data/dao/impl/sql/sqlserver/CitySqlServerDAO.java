@@ -42,7 +42,7 @@ public final class CitySqlServerDAO extends SqlDAO implements CityDAO {
 			throw DataUcoBetException.crear(userMessage, technicalMessage, exception);
 		}
 	}
-
+	
 	@Override
 	public CityEntity findByID(UUID id) {
 		// TODO Auto-generated method stub
@@ -103,18 +103,6 @@ public final class CitySqlServerDAO extends SqlDAO implements CityDAO {
 			
 			throw DataUcoBetException.crear(userMessage, technicalMessage, exception);
 		}
-	}
-
-	@Override
-	public List<CityEntity> finAll() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void update(UUID data) {
-		// TODO Auto-generated method stub
-		
 	}
 
 }

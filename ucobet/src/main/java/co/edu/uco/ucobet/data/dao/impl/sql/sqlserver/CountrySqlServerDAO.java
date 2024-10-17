@@ -32,7 +32,7 @@ public final class CountrySqlServerDAO extends SqlDAO implements CountryDAO {
 	}
 
 	@Override
-	public List<CountryEntity> finAll() {
+	public List<CountryEntity> findAll() {
 		
 		return findByFilter(new CountryEntity());
 	}

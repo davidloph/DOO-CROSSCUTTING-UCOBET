@@ -6,7 +6,7 @@ interface RetrieveDAO<T, I> {
 
 	T findByID(I id);
 	
-	List<T> finAll();
+	List<T> findAll();
 	
 	List<T> findByFilter(T filter);
 }

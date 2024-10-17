@@ -17,7 +17,7 @@ public class StateSqlServerDAO implements StateDAO {
 	}
 
 	@Override
-	public List<StateEntity> finAll() {
+	public List<StateEntity> findAll() {
 		// TODO Auto-generated method stub
 		return null;
 	}
