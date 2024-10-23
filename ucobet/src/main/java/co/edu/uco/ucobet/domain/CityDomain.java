@@ -45,6 +45,4 @@ public class CityDomain extends Domain{
 	private void setState(final StateDomain state) {
 		this.state = ObjectHelper.getDefault(state, StateDomain.create());
 	}
-	
-	
 }

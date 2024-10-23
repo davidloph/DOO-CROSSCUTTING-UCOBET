@@ -8,14 +8,12 @@ import java.util.UUID;
 
 import co.edu.uco.ucobet.crosscutting.exceptions.DataUcoBetException;
 import co.edu.uco.ucobet.data.dao.CityDAO;
-import co.edu.uco.ucobet.data.dao.CountryDAO;
-import co.edu.uco.ucobet.data.dao.StateDAO;
 import co.edu.uco.ucobet.data.dao.impl.sql.SqlDAO;
 import co.edu.uco.ucobet.entity.CityEntity;
 import co.edu.uco.ucobet.entity.CountryEntity;
 import co.edu.uco.ucobet.entity.StateEntity;
 
-public final class CitySqlServerDAO extends SqlDAO implements CityDAO {
+class CitySqlServerDAO extends SqlDAO implements CityDAO {
 
 	protected CitySqlServerDAO(Connection connection) {
 		super(connection);
