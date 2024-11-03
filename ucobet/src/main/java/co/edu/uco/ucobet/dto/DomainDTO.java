@@ -1,5 +1,4 @@
 package co.edu.uco.ucobet.dto;
-import java.util.UUID;
 
 import co.edu.uco.crosscutting.helpers.TextHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;

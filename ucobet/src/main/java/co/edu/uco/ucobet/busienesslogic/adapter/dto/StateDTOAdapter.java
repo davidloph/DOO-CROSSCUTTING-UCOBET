@@ -1,5 +1,7 @@
 package co.edu.uco.ucobet.busienesslogic.adapter.dto;
 
+import java.util.List;
+
 import co.edu.uco.crosscutting.helpers.ObjectHelper;
 import co.edu.uco.crosscutting.helpers.UUIDHelper;
 import co.edu.uco.ucobet.busienesslogic.adapter.Adapter;
@@ -25,6 +27,12 @@ private static final Adapter<StateDomain, StateDTO> instance = new StateDTOAdapt
 
 	@Override
 	public StateDTO adaptTarget(StateDomain data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<StateDTO> adaptTarget(List<StateDomain> data) {
 		// TODO Auto-generated method stub
 		return null;
 	}
